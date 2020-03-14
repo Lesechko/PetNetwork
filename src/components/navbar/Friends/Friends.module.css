@@ -1,0 +1,8 @@
+.friends {
+  margin-top: 100px !important;
+}
+.friends .friensBlock {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 10px;
+}

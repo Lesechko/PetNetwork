@@ -1,0 +1,17 @@
+.Dialogs {
+  display: flex;
+  padding: 15px;
+  padding-bottom: 0;
+  height: calc(100vh - 220px);
+  margin: 0;
+  height: calc(100vh - 240px);
+}
+.Dialogs .dialogsItem {
+  flex: 0 0 30%;
+  background: #c2ebaa;
+  position: relative;
+}
+.Dialogs .messagesItem {
+  flex: 1;
+  background: #8b8787;
+}

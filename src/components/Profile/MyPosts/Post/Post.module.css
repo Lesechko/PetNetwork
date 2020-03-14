@@ -1,0 +1,25 @@
+.Post {
+  height: 150px;
+  width: 400px;
+  background: #d8f7af;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Post .fotoWrapper {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.Post .fotoWrapper img {
+  height: 100%;
+}
+.Post .likeBtn {
+  width: 20%;
+  margin-left: auto;
+}
+.Post button {
+  padding: 5px 10px;
+  margin-right: 10px;
+}

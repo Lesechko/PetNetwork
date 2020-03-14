@@ -1,0 +1,24 @@
+.Header {
+  background: #00ac9d;
+  height: 230px;
+  display: flex;
+  flex: 0 0 100%;
+}
+.Header div {
+  width: 100px;
+  height: 100px;
+  padding: 10px 0 10px 30px;
+}
+.Header div img {
+  max-width: 100%;
+}
+.Header h1 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 110%;
+  font-family: "robotothin", "robotolight", sans-serif;
+  font-weight: normal;
+  flex: 0 0 50%;
+  padding: 47px 0 10px 250px;
+  text-align: center;
+}

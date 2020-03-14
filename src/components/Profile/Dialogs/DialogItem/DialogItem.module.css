@@ -1,0 +1,12 @@
+.dialogItem {
+  padding-top: 40px;
+}
+.dialogItem::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #022005;
+}

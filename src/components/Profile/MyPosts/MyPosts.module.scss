@@ -1,0 +1,24 @@
+.MyPost {
+	// flex: 0 0 100%;
+	// justify-content: start;
+	padding-left: 50px;
+	text-align: start;
+	background: rgb(139, 186, 248);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	input {
+		height: 130px;
+		width: 300px;
+
+		&[type='submit'] {
+			margin: 0 auto;
+		}
+	}
+
+	input[type=submit] {
+		display: block;
+		width: 100px;
+	}
+}

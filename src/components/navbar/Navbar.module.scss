@@ -1,0 +1,30 @@
+.Navbar {
+	max-width: 220px;
+	background: rgb(0, 172, 157);
+	color: white;
+	flex: 0 0 15%;
+	margin-top: 15px;
+	text-align: center;
+	min-height: calc(100vh - 240px);
+
+	ul {
+		margin-top: 60px;
+		padding: 0;
+	}
+
+	li {
+		list-style: none;
+		margin: 0;
+		padding: 10px 0;
+		font-size: 1.4em;
+		text-align: center;
+	}
+
+	a {
+		color: white;
+		list-style: none;
+		text-decoration: none;
+	}
+
+
+}

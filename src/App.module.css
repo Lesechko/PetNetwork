@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+.App .content_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.App .main_wrapper {
+  flex: 1 0 80%;
+  min-height: calc(100vh - 240px);
+}

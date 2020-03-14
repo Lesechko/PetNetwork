@@ -1,0 +1,19 @@
+.MyPost {
+  padding-left: 50px;
+  text-align: start;
+  background: #8bbaf8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MyPost input {
+  height: 130px;
+  width: 300px;
+}
+.MyPost input[type="submit"] {
+  margin: 0 auto;
+}
+.MyPost input[type="submit"] {
+  display: block;
+  width: 100px;
+}

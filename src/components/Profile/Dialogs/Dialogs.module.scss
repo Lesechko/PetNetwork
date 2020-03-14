@@ -1,0 +1,27 @@
+$mainHeigth: calc(100vh - 220px);
+
+.Dialogs {
+	display: flex;
+	padding: 15px;
+	padding-bottom: 0;
+	height: $mainHeigth;
+	margin: 0;
+	height: calc(100vh - 240px);
+
+	.dialogsItem {
+		flex: 0 0 30%;
+		background: rgb(194, 235, 170);
+		position: relative;
+
+	}
+
+
+
+
+	.messagesItem {
+		flex: 1;
+		background: rgb(139, 135, 135);
+	}
+
+
+}

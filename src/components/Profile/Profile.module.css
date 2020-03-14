@@ -1,0 +1,28 @@
+.Profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  background: #e0dcdc;
+}
+.Profile h2 {
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
+.Profile .foto {
+  margin-right: 40px;
+}
+.Profile .post {
+  flex: 0 0 100%;
+}
+.Profile .info {
+  flex: 1;
+  text-align: left;
+}
+.Profile .info ul {
+  padding: 0;
+}
+.Profile .info li {
+  list-style: none;
+  padding: 0 0 15px 0;
+  margin: 0;
+}

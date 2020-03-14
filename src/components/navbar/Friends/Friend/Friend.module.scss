@@ -1,0 +1,22 @@
+.friend {
+	flex: 0 0 33%;
+
+	.name {
+		font-size: 12px;
+		margin: 0;
+	}
+
+	.foto {
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		overflow: hidden;
+		margin-bottom: 5px;
+		margin: 5px auto;
+
+		img {
+			max-width: 100%;
+		}
+	}
+
+}
